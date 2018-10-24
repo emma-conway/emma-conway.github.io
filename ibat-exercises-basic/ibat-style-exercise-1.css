@@ -1,0 +1,29 @@
+/* ======== CSS Resets =========== */
+
+/* Standardises display of web page across different web browsers */
+* { 
+	padding: 0; margin: 0; /* zero spacing around elements */ 
+	box-sizing: border-box /* includes padding and border in element's total width and height */
+}
+html, body { height: 100% }
+body { line-height: 1 /* standardises inter-line spacng for every text elemnet */}
+
+/* ====== End of CSS Resets ======= */
+
+h1 {
+	font-family: sans-serif; /* Arial on Windows, Helvetica on Apple Mac */
+	font-size: 54px;
+	color: #000; /* This is the default color of black */
+	margin-bottom: 36px; /* Pushes down next element by this amount */
+	text-align: center;
+	letter-spacing: 2px
+}
+
+p {
+	font-family: serif; /* Times New Roman on Windows, Times on Apple Mac */
+	font-size: 18px;
+	color: #2c3e50; /* This is default color of black */
+	margin-bottom: 16px; /* Pushes down next element by this amount */
+	line-height: 1.3;
+}
+
